@@ -1,0 +1,134 @@
+body{
+    background: white;
+}a{
+    display: table;
+     padding: 10px;
+}*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+}
+nav{
+  background: white;
+  height: 100vh;
+  width: 90px;  
+  overflow: hidden;
+}.image-logo{
+  
+  padding-bottom: 50px;
+  text-align: center;
+  display: flex;
+  margin: 5px 0 0 5px;  
+}
+.image-logo img{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.nav-images{
+  position: relative;
+  top: 12px;
+  margin-left: 15px;
+}
+a:hover{
+  background:beige;
+}
+.image-logout{
+  position: absolute;
+  bottom: 25px;
+  margin-left:15px;
+}
+.home{
+  display: flex;
+}
+.content{
+  position: relative;
+  padding: 20px;
+  width: 100%;
+}
+.content .main-user{
+  display: flex;
+  width: 100%;
+}
+.user-card{
+  width: 25%;
+  margin: 10px;
+  background: white;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.2);
+}.main-user img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;text-transform: uppercase;
+}.main-user button{
+  width: 100%;
+  margin-top: 8px;
+  padding: 7px;
+  border-radius: 10px;
+  background: transparent;
+  border: 1px solid purple;
+}
+button:hover{
+  background: purple;
+  color: white;
+  transition: 0.4s;
+}
+.attendance{
+  margin-top: 20px;
+}
+.list{
+  padding: 10px;
+  background: white;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.2);
+}
+.table{overflow: hidden;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 15px;
+  min-width: 100%;
+  
+  border-radius: 5px 5px 0 0;
+}
+thead tr{
+  color: white;
+  background: purple;
+  text-align: left;
+  font-weight: bold;
+}
+.table th,.table td{
+  padding: 12px 15px;
+}
+.table tbody tr{
+  border-bottom: 1px solid rgb(201, 199, 199);
+}
+.table tbody tr:nth-of-type(odd){
+  background: rgb(240, 240, 240);
+}
+.table button{
+  padding: 6px 20px;
+  border-radius: 10px;
+  background: transparent;
+  border: 1px solid purple;
+}
+.table button:hover{
+  background: purple;
+  color: white;
+  transition: 0.5;
+}p{
+  font-size: 12px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+table{
+  margin:  auto;
+}span{
+  padding: 5px;
+  border-radius: 10px;
+  background:darkgray;
+}
+td{
+  font-size: 15px;
+  padding-right: 17px;
+}
